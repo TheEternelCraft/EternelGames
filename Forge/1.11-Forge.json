@@ -1,0 +1,158 @@
+{
+  "id": "1.11-forge1.11-13.19.1.2189",
+  "time": "2016-12-09T22:36:46+0000",
+  "releaseTime": "1960-01-01T00:00:00-0700",
+  "type": "release",
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge",
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "inheritsFrom": "1.11",
+  "jar": "1.11",
+  "libraries": [
+    {
+      "name": "net.minecraftforge:forge:1.11-13.19.1.2189",
+      "path": "net/minecraftforge/forge/1.11-13.19.1.2189/forge-1.11-13.19.1.2189.jar",
+      "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11-13.19.1.2189/forge-1.11-13.19.1.2189-universal.jar",
+	  "sha1": "c390949fbb97f48e706ca8bf1c4bbe2e35a72898"
+    },
+    {
+      "name": "net.minecraft:launchwrapper:1.12",
+      "path": "net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+	  "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+	  "sha1": "111e7bea9c968cdb3d06ef4632bf7ff0824d0f36",
+      "serverreq": true
+    },
+    {
+      "name": "org.ow2.asm:asm-all:5.0.3",
+      "path": "org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar",
+	  "url": "https://libraries.minecraft.net/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar",
+	  "sha1": "4333508b8dd8ee72aa4e39afa713b3a74579b773",
+      "serverreq": true
+    },
+    {
+      "name": "jline:jline:2.13",
+      "path": "jline/jline/2.13/jline-2.13.jar",
+      "url": "http://files.minecraftforge.net/maven/jline/jline/2.13/jline-2.13.jar",
+      "sha1": "2d9530d0a25daffaffda7c35037b046b627bb171",
+      "serverreq": true,
+      "clientreq": false
+    },
+    {
+      "name": "com.typesafe.akka:akka-actor_2.11:2.3.3",
+      "path": "com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar",
+      "url": "http://central.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar",
+      "sha1": "ed62e9fc709ca0f2ff1a3220daa8b70a2870078e",
+      "serverreq": true,
+      "clientreq": true
+    },
+    {
+      "name": "com.typesafe:config:1.2.1",
+      "path": "com/typesafe/config/1.2.1/config-1.2.1.jar",
+      "url": "http://central.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar",
+      "sha1": "f771f71fdae3df231bcd54d5ca2d57f0bf93f467",
+      "serverreq": true,
+      "clientreq": true
+    },
+    {
+      "name": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
+      "path": "org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar",
+      "url": "http://files.minecraftforge.net/maven/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar",
+      "sha1": "dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f",
+      "serverreq": true,
+      "clientreq": true
+    },
+    {
+      "name": "org.scala-lang:scala-compiler:2.11.1",
+      "path": "org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar",
+      "url": "http://files.minecraftforge.net/maven/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar",
+      "sha1": "56ea2e6c025e0821f28d73ca271218b8dd04926a",
+      "serverreq": true,
+      "clientreq": true
+    },
+    {
+      "name": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
+      "path": "org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar",
+      "url": "http://files.minecraftforge.net/maven/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar",
+      "sha1": "87213338cd5a153a7712cb574c0ddd2edfee0386",
+      "serverreq": true,
+      "clientreq": true
+    },
+    {
+      "name": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
+      "path": "org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar",
+      "url": "http://files.minecraftforge.net/maven/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar",
+      "sha1": "1f7371605d4ba42aa26d3443440c0083c587b4e9",
+      "serverreq": true,
+      "clientreq": true
+    },
+    {
+      "name": "org.scala-lang:scala-library:2.11.1",
+      "path": "org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar",
+      "url": "http://files.minecraftforge.net/maven/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar",
+      "sha1": "0e11da23da3eabab9f4777b9220e60d44c1aab6a",
+      "serverreq": true,
+      "clientreq": true
+    },
+    {
+      "name": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
+      "path": "org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar",
+      "url": "http://files.minecraftforge.net/maven/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar",
+      "sha1": "f05d7345bf5a58924f2837c6c1f4d73a938e1ff0",
+      "serverreq": true,
+      "clientreq": true
+    },
+    {
+      "name": "org.scala-lang:scala-reflect:2.11.1",
+      "path": "org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar",
+      "url": "http://files.minecraftforge.net/maven/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar",
+      "sha1": "6580347e61cc7f8e802941e7fde40fa83b8badeb",
+      "serverreq": true,
+      "clientreq": true
+    },
+    {
+      "name": "org.scala-lang:scala-swing_2.11:1.0.1",
+      "path": "org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar",
+      "url": "http://files.minecraftforge.net/maven/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar",
+      "sha1": "b1cdd92bd47b1e1837139c1c53020e86bb9112ae",
+      "serverreq": true,
+      "clientreq": true
+    },
+    {
+      "name": "org.scala-lang:scala-xml_2.11:1.0.2",
+      "path": "org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar",
+      "url": "http://files.minecraftforge.net/maven/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar",
+      "sha1": "7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0",
+      "serverreq": true,
+      "clientreq": true
+    },
+    {
+      "name": "lzma:lzma:0.0.1",
+      "path": "lzma/lzma/0.0.1/lzma-0.0.1.jar",
+	  "url": "https://libraries.minecraft.net/lzma/lzma/0.0.1/lzma-0.0.1.jar",
+	  "sha1": "521616dc7487b42bef0e803bd2fa3faf668101d7",
+      "serverreq": true
+    },
+    {
+      "name": "net.sf.jopt-simple:jopt-simple:4.6",
+      "path": "net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar",
+	  "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar",
+	  "sha1": "306816fb57cf94f108a43c95731b08934dcae15c",
+      "serverreq": true
+    },
+    {
+      "name": "java3d:vecmath:1.5.2",
+      "path": "java3d/vecmath/1.5.2/vecmath-1.5.2.jar",
+	  "url": "https://libraries.minecraft.net/java3d/vecmath/1.5.2/vecmath-1.5.2.jar",
+	  "sha1": "79846ba34cbd89e2422d74d53752f993dcc2ccaf",
+      "clientreq": true,
+      "serverreq": true
+    },
+    {
+      "name": "net.sf.trove4j:trove4j:3.0.3",
+      "path": "net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar",
+	  "url": "https://libraries.minecraft.net/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar",
+	  "sha1": "42ccaf4761f0dfdfa805c9e340d99a755907e2dd",
+      "clientreq": true,
+      "serverreq": true
+    }
+  ]
+}
